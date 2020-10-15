@@ -1,0 +1,8 @@
+#EXTM3U
+#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="English (British)",DEFAULT=NO,AUTOSELECT=YES,FORCED=NO,LANGUAGE="en",URI="https://cfvod.kaltura.com/api_v3/index.php/service/caption_captionasset/action/serveWebVTT/captionAssetId/1_sjlr4pn3/segmentDuration/300/ks/djJ8MjM2ODEwMXzHXmTSecHIDq9MlZQ8JbDa5fDz3uvmo4a9gX2dS6BOgiuPwKyRnZZssNPDuXym0Zl6VwxN-zejHWEkl2y_HrLrT7oW_9mEEOPOYVj28s-mZHW6Z7YltMxz4pZthNsRboOxSj_ebC3CLINsv5m7aPd-LYbYiCyLzXK7gbwoo0Z5AK7P2K8j3UzLpF8o32f6bfSbEnxy7T-mUTtC_HFd-46ywJYoHXgvPRpLZfouoTKtYYx8oVmXdWB6MEc7Cs0s-S2_oJqTuUFNqGjtd54bAJBt/a.m3u8"
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=219257,RESOLUTION=640x360,SUBTITLES="subs"
+https://cfvod.kaltura.com/hls/p/2368101/sp/236810100/serveFlavor/entryId/1_0r8n6jrb/v/1/ev/4/flavorId/1_vdbkavce/name/a.mp4/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=277847,RESOLUTION=854x480,SUBTITLES="subs"
+https://cfvod.kaltura.com/hls/p/2368101/sp/236810100/serveFlavor/entryId/1_0r8n6jrb/v/1/ev/4/flavorId/1_avuoymq7/name/a.mp4/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=450480,RESOLUTION=1280x720,SUBTITLES="subs"
+https://cfvod.kaltura.com/hls/p/2368101/sp/236810100/serveFlavor/entryId/1_0r8n6jrb/v/1/ev/4/flavorId/1_kdob1k5j/name/a.mp4/index.m3u8

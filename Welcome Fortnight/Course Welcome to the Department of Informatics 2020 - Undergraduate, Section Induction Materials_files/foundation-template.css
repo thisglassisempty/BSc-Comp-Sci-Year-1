@@ -1,0 +1,310 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+/***********************************************************************************************/
+/* TESTING AREA */
+/***********************************************************************************************/
+
+
+
+
+/***********************************************************************************************/
+/* GRID */
+/***********************************************************************************************/
+
+/*Grid - Section 0 removed to add more space by pushing the banner higher on the page*/
+#section-0 .content>h3.sectionname:after {
+    background: none!important;
+	height: 0px;
+	margin-top: 0px;
+}
+
+#section-0 .content>h3.sectionname {
+    background: none!important;
+	margin-bottom: 0px;
+}
+
+/*Font style change for grid headings*/
+.course-content ul.gridicons li .icon_content {
+    
+    font-family: "open sans";
+}
+
+/***********************************************************************************************/
+/* BLOCKS */
+/***********************************************************************************************/
+
+/*font change for drop-down menu in blocks */
+.dropdown-menu {
+    font-family: "open sans";
+}
+
+/*underlining on hover for links in blocks*/
+li a:hover {
+    text-decoration: underline;
+}
+#block-region-side-post .block p a:hover {
+    text-decoration: underline;
+}
+.row-fluid p a:hover {
+    text-decoration: underline;
+}
+
+/*Alignments for block heading area*/
+.p-3 {
+    padding: 12px!important;
+}
+.block .card-title {
+    background-color: #ced5dc!important;
+	color: #0A2D50;
+}
+
+/*Header Block BG Colour*/
+#block-region-side-post .block .header {
+    margin-bottom: 20px;
+    background-color: #ced5dc!important;
+}
+
+/*Block content BG color*/
+#block-region-side-post .block{
+	background: #e6eaed;
+}
+.block{
+	background-color: #e6eaed!important;
+}
+
+/*Block Font color*/
+#block-region-side-post .block, #block-region-side-pre .block, .hidden-blocks .block h1, h2, h3, h4 {
+	color: #0A2D50!important;
+}
+
+/*Block font change for content*/
+#block-region-side-post .block, #block-region-side-pre .block, .hidden-blocks .block{
+	font-family:'open sans';
+}
+
+/*Block heading Font-family change*/
+#block-region-side-post .block p a:link{
+	font-family:"Open Sans";
+	letter-spacing: 0.02rem;
+}
+
+/*Blocks - No border around headings*/
+#block-region-side-post .block, #block-region-side-pre .block, .hidden-blocks .block {
+    border: none;
+	padding-top: 0;
+}
+
+/* Move all font-awesome lists to 1.5em instead of 2.5em so they can align with other blocks */
+#block-region-side-pre .block .content .fa-ul, #block-region-side-post .block .content .fa-ul, .hidden-blocks .block .content .fa-ul {
+    margin-left: 1.5em;
+}
+
+
+
+
+/***********************************************************************************************/
+/*SECTION/TOPICS*/
+/***********************************************************************************************/
+
+/*Collapsed Topics - Section 0 removed to add more space by pushing the banner higher on the page*/
+.ctopics #section-0 h3.section-title {
+	background: none!important;
+	margin-bottom: 0px;
+}
+
+.ctopics #section-0 h3.section-title::after{
+ 	background: none!important;
+	height: 0px;
+	margin-top: 0px;
+}
+
+/*Sections BG colour change when open POINT*/
+.course-content ul.ctopics li.section .content .toggle-point span.toggle_open, body.jsenabled .course-content ul.ctopics li.section .content .toggle-point span.toggle_open{
+	background-color: #0A2D50;
+}
+
+/*Section text colour change when open POINT*/
+body.jsenabled .course-content ul.ctopics li.section .content .toggle-point span.toggle_open h3.sectionname{
+	color: #ffffff!important;	
+}
+
+/*Removal of border on sections*/
+.course-content ul.ctopics li.section .content .toggle span.the_toggle.tc-small{
+	border: none!important;
+}
+
+.course-content ul li.section.main{
+	margin-bottom: 3px!important;
+}
+
+/*Opened collapsed topic color change*/
+.course-content ul.ctopics li.section .toggle-arrow span.toggle_open, body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open{
+	background-color: #0A2D50;
+}
+
+/*Section color text when editing*/
+.editing .ctopics .content h3.sectionname a, .editing .ctopics .content h3.sectionname span.toggle_open a:hover {
+    color: #0A2D50;
+    background-color: white;
+}
+
+/*Section text colour change when open*/
+body.jsenabled .course-content ul.ctopics li.section .content .toggle-arrow span.toggle_open h3.sectionname{
+	color: #ffffff!important;	
+}
+
+/*banner alignment*/
+#block-region-side-post .block .header {
+margin-top:23px;
+}
+
+
+
+
+
+
+
+
+
+/***********************************************************************************************/
+/*EXTRAS*/
+/***********************************************************************************************/
+
+.path-course-view .completionprogress{
+	display:none;
+
+}
+
+#block-region-side-post .block .header, #block-region-side-pre .block .header, .hidden-blocks .block .header{
+	box-shadow: none;
+}
+
+main {
+      overflow: hidden;
+      font-family: 'kingsfont-37';
+    }
+  
+
+
+
+
+
+/***********************************************************************************************/
+/*HERO*/
+/***********************************************************************************************/
+
+      .hero {
+        position: relative;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin: 0 auto;
+    }
+     
+    .hero-box {
+        background-color:rgba(255, 255, 255, 255); opacity: 0.8;
+        bottom: 0;
+        padding: 0px;
+        padding-left: 20px;
+        padding-right: 20px;
+        left: auto;
+        right: auto;
+        width: 100%;
+        position: absolute;    
+    }
+
+ 
+
+    .hero-box h1 {
+        font-size: 1.8em;
+        color: #0A2D50;
+        font-family: "Open Sans" !important;
+
+        text-align: left
+    }
+
+ 
+
+    .hero-box h2 {
+        font-size: 1.6em;
+        font-family: 'arial' !important;
+        color: #0A2D50;
+        font-weight: 400;
+        right: 0;
+        margin: 10px 0;
+        text-align: left
+    }
+
+ 
+
+    .hero-box p {
+        font-size: 1.15em;
+        font-family: 'arial' !important;
+        color: #0A2D50;
+        font-weight: 400;
+        text-align: left
+    }
+     
+    @media all and (max-width: 767px) {
+     
+        .hero-box {
+
+ 
+
+            display: inline;
+/*            top: inherit;
+*/            
+        }
+
+ 
+
+        .hero-box h1 {
+            font-size: 1.5em;
+        }
+
+ 
+
+        .hero-box h2 {
+            font-size: 1.4em;
+        
+     
+    @media all and (max-width: 650px) {
+     
+      .hero-box {
+             width: 99%;
+             height: 50%;
+             display: inline;
+             padding: 0px !important;
+             max-width: 99%;
+             top: inherit;
+             bottom: 0px;
+      }
+      .hero-box h1 {
+           font-size: 1.4em;
+           font-family: 'kingsfont-37' !important;
+           padding-left: 15px;
+          text-align: left;
+      }
+      
+      .hero-box h2 {
+             font-size: 1.4em;
+             padding-left: 15px;
+      }
+    
+    }
+     
+    @media all and (max-width: 380px) {
+     
+           .hero-box h1 {
+                  font-size: 1.1em;
+           }
+     
+           .hero-box h2 {
+                  font-size: 1.1em;
+           }
+     
+    }
+

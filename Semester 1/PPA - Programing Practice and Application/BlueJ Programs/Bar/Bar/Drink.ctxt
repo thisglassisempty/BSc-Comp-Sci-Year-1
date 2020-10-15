@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Drink
+comment0.text=\n\ Drink\ class\ for\ all\ the\ drinks\ in\ a\ bar\n\n\ @Aaron\ Patrick\ Monte\ \n\ @1.0.0\ (7/10/2020)\n
+comment1.params=inName\ inPrice\ inIsAlcoholic
+comment1.target=Drink(java.lang.String,\ int,\ java.lang.Boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Drink\n
+comment2.params=
+comment2.target=int\ getPrice()
+comment2.text=\n\ getPrice\ gets\ the\ price\ of\ the\ drink\n
+comment3.params=
+comment3.target=java.lang.Boolean\ getIsAlcoholic()
+comment3.text=\n\ getIsAlcohlic\ returns\ whether\ or\ not\ the\ drink\ is\ alcoholic\n
+comment4.params=
+comment4.target=int\ getCounter()
+comment4.text=\n\ getCounter\ returns\ the\ count\ of\ the\ drink\n
+comment5.params=
+comment5.target=void\ recordSale()
+comment5.text=\n\ recordSale\ records\ the\ sale\ (increases\ the\ counter\ by\ 1)\n
+comment6.params=
+comment6.target=void\ reset()
+comment6.text=\n\ reset\ resets\ the\ counter\n
+numComments=7
