@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Member
+comment0.text=\n\ Lab\ sheet\ 3\ --\ Member\n\n\ @Aaron\ Patrick\ Monte\n\ @1.0.0.0\n
+comment1.params=name\ year\ isStudent
+comment1.target=Member(java.lang.String,\ int,\ boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Member\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ Return\ the\ name\ of\ a\ member\n
+comment3.params=
+comment3.target=int\ getYear()
+comment3.text=\n\ Return\ the\ year\ of\ a\ member\n
+comment4.params=
+comment4.target=boolean\ getIsStudent()
+comment4.text=\n\ Return\ whether\ or\ not\ the\ member\ is\ a\ student\n
+comment5.params=
+comment5.target=void\ setStudent()
+comment5.text=\n\ Mutator\ method\ to\ update\ the\ member\ as\ student\n
+comment6.params=
+comment6.target=void\ show()
+comment6.text=\n\ Output\ method\ to\ display\ classes\ in\ the\ format\ "[Name],\ member\ since\ [year]\ [isStudent]"\n
+comment7.params=
+comment7.target=int\ memberYear()
+comment7.text=\n\ Calculate\ the\ years\ someone\ has\ been\ a\ member\ for\n
+numComments=8
