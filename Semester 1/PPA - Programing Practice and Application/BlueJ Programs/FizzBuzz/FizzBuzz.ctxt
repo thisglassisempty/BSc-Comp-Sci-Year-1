@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=FizzBuzz
+comment0.text=\n\ FizzBuzz\n\n\ @author\ Aaron\ Patrick\ Monte\n\ @version\ 1.0.0.0\n
+comment1.params=
+comment1.target=FizzBuzz()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ FizzBuzz\n
+comment2.params=num1\ num2
+comment2.target=void\ sum(int,\ int)
+comment2.text=\n\ Print\ sum\ of\ all\ numbers\ between\ 2\ given\ numbers\n
+comment3.params=num
+comment3.target=boolean\ isPrime(int)
+comment3.text=\n\ isPrime\ returns\ true\ if\ a\ parameter\ is\ a\ prime\ number,\ and\ false\ if\ it\ is\ not.\n
+comment4.params=
+comment4.target=void\ printFizzBuzz()
+comment4.text=\n\ Print\ FizzBuzz\n\ Multiples\ of\ 3\ are\ printed\ with\ "Fizz"\n\ Multiples\ of\ 5\ are\ printed\ with\ "Buzz"\n\ Else,\ it\ just\ prints\ the\ number\n
+numComments=5
