@@ -1,11 +1,13 @@
 #BlueJ class context
-comment0.params=
-comment0.target=LogfileCreator()
-comment0.text=\n\ Create\ log\ files.\n
-comment1.params=filename\ numEntries
-comment1.target=boolean\ createFile(java.lang.String,\ int)
-comment1.text=\n\ Create\ a\ file\ of\ random\ log\ entries.\n\ @param\ filename\ The\ file\ to\ write.\n\ @param\ numEntries\ How\ many\ entries.\n\ @return\ true\ if\ successful,\ false\ otherwise.\n
-comment2.params=
-comment2.target=LogEntry\ createEntry()
-comment2.text=\n\ Create\ a\ single\ (random)\ entry\ for\ a\ log\ file.\n\ @return\ A\ log\ entry\ containing\ random\ data.\n
-numComments=3
+comment0.target=LogfileCreator
+comment0.text=\n\ A\ class\ for\ creating\ log\ files\ of\ random\ data.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ \ \ \ 2016.02.29\n
+comment1.params=
+comment1.target=LogfileCreator()
+comment1.text=\n\ Create\ log\ files.\n
+comment2.params=filename\ numEntries
+comment2.target=boolean\ createFile(java.lang.String,\ int)
+comment2.text=\n\ Create\ a\ file\ of\ random\ log\ entries.\n\ @param\ filename\ The\ file\ to\ write.\n\ @param\ numEntries\ How\ many\ entries.\n\ @return\ true\ if\ successful,\ false\ otherwise.\n
+comment3.params=
+comment3.target=LogEntry\ createEntry()
+comment3.text=\n\ Create\ a\ single\ (random)\ entry\ for\ a\ log\ file.\n\ @return\ A\ log\ entry\ containing\ random\ data.\n
+numComments=4

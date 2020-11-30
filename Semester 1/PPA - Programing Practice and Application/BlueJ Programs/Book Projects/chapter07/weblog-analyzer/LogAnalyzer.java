@@ -10,7 +10,7 @@ public class LogAnalyzer
     private int[] hourCounts;
     // Use a LogfileReader to access the data.
     private LogfileReader reader;
-
+    
     /**
      * Create an object to analyze hourly web accesses.
      */

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Race
+comment0.text=\n\ This\ class\ provides\ the\ ability\ to\ simulate\ a\ number\ of\n\ car\ objects\ racing\ around\ a\ race\ track.\ In\ particular,\n\ it\ can\ determine\ which\ car\ is\ leading\ the\ race\ after\n\ every\ lap.\n\ \n\ @author\ King's\ College\ London\n\ @version\ 1.0\n
+comment1.params=car1\ car2\ car3\ numberOfLaps\ averageLapTime\ isRaining
+comment1.target=Race(Car,\ Car,\ Car,\ int,\ int,\ boolean)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Race\n
+comment2.params=
+comment2.target=Car\ getRaceLeader()
+comment2.text=\n\ Identifies\ which\ of\ the\ cars\ is\ leading\ the\ race,\n\ which\ is\ the\ one\ with\ the\ lowest\ total\ time\n\ taken\ in\ the\ race\ so\ far.\n\ \n\ @return\ the\ car\ that\ is\ leading\ the\ race\n
+comment3.params=
+comment3.target=void\ simulateRace()
+comment3.text=\n\ Simulates\ the\ race\ by\ making\ each\ car\ complete\n\ laps\ around\ the\ track\ for\ the\ amount\ of\ laps\n\ specified\ in\ numberOfLaps.\n
+comment4.params=
+comment4.target=int\ getAverageLapTime()
+comment5.params=
+comment5.target=boolean\ getIsRaining()
+numComments=6

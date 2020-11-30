@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\ \n\ This\ class\ represents\ a\ Car,\ including\ its\n\ main\ attributes\ that\ affect\ the\ time\ it\ takes\n\ to\ complete\ a\ lap\ in\ a\ race\n\ \n\ @author\ King's\ College\ London\n\ @version\ 1.o\n
+comment1.params=name\ rainSlowDown\ currentFuelLevel
+comment1.target=Car(java.lang.String,\ int,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Car\n
+comment2.params=
+comment2.target=int\ completeLap()
+comment2.text=\n\ Make\ the\ car\ race\ a\ single\ lap.\ The\ time\ taken\n\ to\ complete\ the\ lap\ is\ calculated\ by\ retrieving\n\ the\ average\ lap\ time\ and\ altering\ it,\ based\ on\n\ the\ state\ of\ the\ car.\n\ \n\ @return\ the\ time\ taken\ to\ complete\ this\ lap\n
+comment3.params=currentFuelLevel
+comment3.target=void\ setCurrentFuelLevel(int)
+comment4.params=lapTime
+comment4.target=void\ addToTotalTime(int)
+comment5.params=
+comment5.target=void\ refuel()
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment7.params=
+comment7.target=int\ getTotalTime()
+comment8.params=currentRace
+comment8.target=void\ setCurrentRace(Race)
+numComments=9

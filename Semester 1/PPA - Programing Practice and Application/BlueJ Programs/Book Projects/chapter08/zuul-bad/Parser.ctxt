@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Parser()
-comment0.text=\r\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window.\r\n
+comment0.target=Parser
+comment0.text=\n\ This\ class\ is\ part\ of\ the\ "World\ of\ Zuul"\ application.\ \n\ "World\ of\ Zuul"\ is\ a\ very\ simple,\ text\ based\ adventure\ game.\ \ \n\ \n\ This\ parser\ reads\ user\ input\ and\ tries\ to\ interpret\ it\ as\ an\ "Adventure"\n\ command.\ Every\ time\ it\ is\ called\ it\ reads\ a\ line\ from\ the\ terminal\ and\n\ tries\ to\ interpret\ the\ line\ as\ a\ two\ word\ command.\ It\ returns\ the\ command\n\ as\ an\ object\ of\ class\ Command.\n\n\ The\ parser\ has\ a\ set\ of\ known\ command\ words.\ It\ checks\ user\ input\ against\n\ the\ known\ commands,\ and\ if\ the\ input\ is\ not\ one\ of\ the\ known\ commands,\ it\n\ returns\ a\ command\ object\ that\ is\ marked\ as\ an\ unknown\ command.\n\ \n\ @author\ \ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\n\ @version\ 2016.02.29\n
 comment1.params=
-comment1.target=Command\ getCommand()
-comment1.text=\r\n\ @return\ The\ next\ command\ from\ the\ user.\r\n
-numComments=2
+comment1.target=Parser()
+comment1.text=\n\ Create\ a\ parser\ to\ read\ from\ the\ terminal\ window.\n
+comment2.params=
+comment2.target=Command\ getCommand()
+comment2.text=\n\ @return\ The\ next\ command\ from\ the\ user.\n
+numComments=3

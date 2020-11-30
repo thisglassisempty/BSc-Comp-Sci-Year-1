@@ -1,3 +1,5 @@
+import java.util.HashMap;
+import java.util.Set;
 /**
  * Class Room - a room in an adventure game.
  *
@@ -14,11 +16,8 @@
  */
 public class Room 
 {
-    public String description;
-    public Room northExit;
-    public Room southExit;
-    public Room eastExit;
-    public Room westExit;
+    private String description;
+    private HashMap<String, Room> exits;
 
     /**
      * Create a room described "description". Initially, it has
@@ -29,32 +28,45 @@ public class Room
     public Room(String description) 
     {
         this.description = description;
+        exits = new HashMap<>();
     }
-
+    
+    /**
+     * Return the exit in the specified direction. 
+     * Will return null if there is no exit.
+     */
+    public Room getExit(String direction)
+    {
+        return exits.get(direction);
+    }
+    
     /**
      * Define the exits of this room.  Every direction either leads
      * to another room or is null (no exit there).
-     * @param north The north exit.
-     * @param east The east east.
-     * @param south The south exit.
-     * @param west The west exit.
+     * @param direction The direction being defined.
+     * @param neighbour the neighbouring room lying in that direction.
      */
-    public void setExits(Room north, Room east, Room south, Room west) 
+    public void setExit(String direction, Room neighbour) 
     {
-        if(north != null) {
-            northExit = north;
-        }
-        if(east != null) {
-            eastExit = east;
-        }
-        if(south != null) {
-            southExit = south;
-        }
-        if(west != null) {
-            westExit = west;
-        }
+        exits.put(direction, neighbour);
     }
-
+    
+    /**
+     * Prints all the exits for a room.
+     * @param exitNames a set that stores the exits for a room
+     */
+    public String getExitInfo()
+    {
+        String exitString = "";
+        Set<String> exitNames = exits.keySet();
+        
+        for (String exit : exitNames) {
+            exitString = exitString + exit + " ";
+        }
+        
+        return exitString;
+    }
+    
     /**
      * @return The description of the room.
      */
