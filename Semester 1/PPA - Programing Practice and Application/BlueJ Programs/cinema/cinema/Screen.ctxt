@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Screen
+comment0.text=\n\ Write\ a\ description\ of\ class\ Screen\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=screenID\ movieTitle\ movieCost
+comment1.target=Screen(int,\ java.lang.String,\ int)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Screen\n
+comment2.params=
+comment2.target=void\ emptyScreen()
+comment2.text=\n\ emptyScreen\n
+numComments=3
