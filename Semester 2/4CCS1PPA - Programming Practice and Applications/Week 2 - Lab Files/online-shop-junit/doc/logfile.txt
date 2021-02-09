@@ -1,0 +1,36 @@
+Class documentation
+<---- javadoc command: ---->
+javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+11
+-classpath
+/app/bluej/lib/bluejcore.jar:/app/bluej/lib/junit-4.11.jar:/app/bluej/lib/hamcrest-core-1.3.jar:/app/bluej/lib/lang-stride.jar:/app/bluej/lib/javafx/lib/javafx.base.jar:/app/bluej/lib/javafx/lib/javafx.controls.jar:/app/bluej/lib/javafx/lib/javafx.fxml.jar:/app/bluej/lib/javafx/lib/javafx.graphics.jar:/app/bluej/lib/javafx/lib/javafx.media.jar:/app/bluej/lib/javafx/lib/javafx.properties.jar:/app/bluej/lib/javafx/lib/javafx.swing.jar:/app/bluej/lib/javafx/lib/javafx.web.jar:/home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit
+-d
+/home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/Comment.java
+<---- end of javadoc command ---->
+Loading source file /home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/Comment.java...
+Constructing Javadoc information...
+Standard Doclet version 11.0.8
+Building tree for all the packages and classes...
+Generating /home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/doc/Comment.html...
+Generating /home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/doc/package-summary.html...
+Generating /home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/doc/constant-values.html...
+Building index for all the packages and classes...
+Building index for all classes...
+Generating /home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/doc/allclasses.html...
+Generating /home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/doc/allclasses.html...
+Generating /home/fullytanaka/bin/BSc-Comp-Sci-Year-1/Semester 2/4CCS1PPA - Programming Practice and Applications/Week 2 - Lab Files/online-shop-junit/doc/index.html...

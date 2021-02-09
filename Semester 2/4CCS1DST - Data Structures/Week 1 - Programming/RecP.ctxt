@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=RecP
+comment0.text=\n\ RecP\n\ \n\ @author\ Aaron\ Patrick\ Monte\n\ @version\ 24.01.2021\n
+comment1.params=
+comment1.target=RecP()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ recP\n
+comment2.params=n
+comment2.target=int\ recP(int)
+comment2.text=\n\ recP\n
+numComments=3
