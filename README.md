@@ -7,6 +7,6 @@ You can find all my notes/projects for computer science here. This is just a way
 - Xournal is the program I use to do hand annotation with my Graphics Tablet.
 
 ## Contacting me
-You can find me on the Fresher's Discord server. Check the material pinned in the WhatsApp group chat, or add me directly. (Tanakasaki#0999)
+You can find me on the Fresher's Discord server. Check the material pinned in the WhatsApp group chat.
 
 
