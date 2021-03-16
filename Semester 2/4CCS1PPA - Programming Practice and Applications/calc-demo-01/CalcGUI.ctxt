@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=CalcGUI
+comment0.text=\n\ A\ Calculator\ GUI\ in\ JavaFX.\n\n\ @author\ mik\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+numComments=2

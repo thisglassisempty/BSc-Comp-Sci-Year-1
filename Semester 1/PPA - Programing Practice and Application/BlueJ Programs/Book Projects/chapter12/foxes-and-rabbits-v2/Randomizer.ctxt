@@ -1,11 +1,13 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Randomizer()
-comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Randomizer\n
+comment0.target=Randomizer
+comment0.text=\n\ Provide\ control\ over\ the\ randomization\ of\ the\ simulation.\ By\ using\ the\ shared,\ fixed-seed\ \n\ randomizer,\ repeated\ runs\ will\ perform\ exactly\ the\ same\ (which\ helps\ with\ testing).\ Set\ \n\ 'useShared'\ to\ false\ to\ get\ different\ random\ behaviour\ every\ time.\n\ \n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling\n\ @version\ 2016.02.29\n
 comment1.params=
-comment1.target=java.util.Random\ getRandom()
-comment1.text=\n\ Provide\ a\ random\ generator.\n\ @return\ A\ random\ object.\n
+comment1.target=Randomizer()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Randomizer\n
 comment2.params=
-comment2.target=void\ reset()
-comment2.text=\n\ Reset\ the\ randomization.\n\ This\ will\ have\ no\ effect\ if\ randomization\ is\ not\ through\n\ a\ shared\ Random\ generator.\n
-numComments=3
+comment2.target=java.util.Random\ getRandom()
+comment2.text=\n\ Provide\ a\ random\ generator.\n\ @return\ A\ random\ object.\n
+comment3.params=
+comment3.target=void\ reset()
+comment3.text=\n\ Reset\ the\ randomization.\n\ This\ will\ have\ no\ effect\ if\ randomization\ is\ not\ through\n\ a\ shared\ Random\ generator.\n
+numComments=4
